@@ -126,6 +126,22 @@ project.ipynb
 
 ```
 
+### The Process Results
+The results show that:
+* All the **3096313 immigrants** arrived US in April (autumn) 2016.
+* Highest number of visitors (immigrants) are from the following countries:
+
+![The Countries](country.png)
+
+* The popular ports of entry and number of immigrants passing through them are:
+
+![Popular Ports of Entry](ports.png).
+
+* The popular ports of choice of some countries are as follows:
+
+![Ports by Countries](port_country.png)
+
+
 
 
 ### Authors
