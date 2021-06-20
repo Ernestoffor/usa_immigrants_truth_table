@@ -94,7 +94,7 @@ The main dataset of this project which comes from the US National Tourism and Tr
 A data dictionary or metadata is attached to this project in a separate pdf file. The file gives details of the data types and descriptions of all the fields in different tables used in the project. 
 
 ### Special Cases of Increased Data Voulume and Number of Accesses
-With increase in data size to say 100x the current size, there will be need to store the data in Apache Cassandra(a NoSQL database designed for scalability and high availability without any negative impacts on the high performance) . If the number of accesses to the database grows to over 100+, it may be great to integrate Apache Pulsar. This integration provides four advantages, name: scalability, geo-replication, multi-tenancy and queuing. More details of this approach are captured in [DataStaX: Need for Apache Pulsar in Data Stack](https://datastax.medium.com/four-reasons-why-apache-pulsar-is-essential-to-the-modern-data-stack-b90a8bddcb9). 
+With increase in data size to say 100x the current size, there will be need to store the data in Apache Cassandra(a NoSQL database designed for scalability and high availability without any negative impacts on the high performance) . If the number of accesses to the database grows to over 100+, it may be great to integrate Apache Pulsar. This integration provides four advantages, namely: scalability, geo-replication, multi-tenancy and queuing. More details of this approach are captured in [DataStaX: Need for Apache Pulsar in Data Stack](https://datastax.medium.com/four-reasons-why-apache-pulsar-is-essential-to-the-modern-data-stack-b90a8bddcb9). 
 
 ### A Simple Analysis and Summary
 A simple analysis of the data was conducted using both Tableau visualization and Spark SQL. The following results were found to be true using Spark SQL:
@@ -130,11 +130,14 @@ project.ipynb
 The results show that:
 * All the **3096313 immigrants** arrived US in April (autumn) 2016.
 * Highest number of visitors (immigrants) are from the following countries:
+
 ![The Countries](country.png)
 * The popular ports of entry and number of immigrants passing through them are:
+
 ![Popular Ports of Entry](ports.png).
 
 * The popular ports of choice of some countries are as follows:
+
 ![Ports by Countries](port_country.png)
 
 
